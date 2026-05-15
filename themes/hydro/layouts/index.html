@@ -39,9 +39,6 @@
   <section class="grid gap-6 md:grid-cols-3">
     {{ range slice (dict "title" "Usługi 24/7" "description" "Szybka pomoc w usuwaniu zatorów i czyszczeniu kanalizacji." "image" "service.svg") (dict "title" "Dojazd w 30-60 minut" "description" "Reagujemy natychmiast na awarie w Wrocławiu i okolicach." "image" "emergency.svg") (dict "title" "Gwarancja jakości" "description" "Jasne warunki, brak ukrytych kosztów i pewna realizacja." "image" "guarantee.svg") }}
       <article class="rounded-[1.75rem] bg-white p-6 shadow-lg shadow-slate-200/30 transition hover:-translate-y-1 hover:shadow-xl">
-        <div class="mb-5 h-24 w-24 overflow-hidden rounded-3xl bg-slate-50">
-          <img src="{{ (printf "images/%s" .image) | relURL }}" alt="{{ .title }}" class="h-full w-full object-cover" />
-        </div>
         <h2 class="text-xl font-semibold text-slate-900">{{ .title }}</h2>
         <p class="mt-4 text-slate-600">{{ .description }}</p>
       </article>
