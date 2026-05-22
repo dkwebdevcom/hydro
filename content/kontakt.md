@@ -1,5 +1,7 @@
 ---
 title: Kontakt
+description: Skontaktuj się z pogotowiem kanalizacyjnym. Dostępni 24/7. Telefon,
+  email, adres.
 keywords: kontakt, telefon, email, adres, godziny otwarcia
 draft: false
 ---
